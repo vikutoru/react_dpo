@@ -4,10 +4,10 @@ import * as React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
-import Login from './components/login';
-import Signup from './components/signup';
-import Home from './components/home';
-import Halaman2 from './components/next';
+import Login from 'login';
+import Signup from 'signup';
+import Home from 'home';
+import Halaman2 from 'next';
 
 const Stack = createStackNavigator();
 

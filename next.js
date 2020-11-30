@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { StyleSheet, View, Text, Image, Button, SafeAreaView, ScrollView} from 'react-native';
-import firebase from '../database/firebase';
+import firebase from 'firebase';
 
 
 export default class Halaman2 extends Component {
